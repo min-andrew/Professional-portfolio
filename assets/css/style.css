@@ -104,3 +104,20 @@ header nav ul {
     font-size: 60px;
   }
   
+  .title {
+    padding-top: 150px;
+    position: relative;
+  }
+
+  .title img {
+    float: none;
+  }
+
+ .resume {
+  position: absolute;
+  flex-direction: column;
+  width: auto;
+  height: 100px;
+  text-align: center;
+
+}
