@@ -1,27 +1,106 @@
-header nav {
-    background-color: beige;
-    font-size: large;
-}
+body {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  
 
-header li {
-    display: inline-block;
-    margin: auto 5px;
-    padding: 10px;
-    border: 5px solid rgb(79, 79, 79);
-    background-color: beige;
-}
-
-header #name {
-    float: left;
-    font-size: 100px;
-}
 
 header nav ul {
     list-style-type: none;
 }
 
-aside {
+/* aside {
     display: flex;
     margin: auto;
     padding: 10%;
+} */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: fixed;
+    font-weight: 700;
+    width: 100%;
+    background-image: radial-gradient(
+        circle at bottom center,
+        rgb(226, 226, 226),
+        rgb(194, 227, 226),
+        rgb(241, 216, 233)
+      ),
+      linear-gradient(white, black);
+    z-index: 1;
 }
+      
+#right-side .right-nav {
+        display: flex;
+        padding: 0px;
+        margin: auto;
+      }
+      
+.right-nav li {
+  height: 32px;
+  margin: 60px 58px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s ease;
+  font-size: 28px;
+  text-align: center;
+      }
+      
+.right-nav li a {
+        text-decoration: none;
+        color: rgb(133, 133, 133);
+        -webkit-transition: font-size 3s ease;
+      }
+      
+      /*right button underline */
+.right-nav li:hover {
+        border-bottom: 2px solid rgb(145, 145, 145);
+        font-weight: bold;
+      }
+      
+.right-nav li a:hover {
+        color: whitesmoke;
+        transition-duration: 2s;
+    font-size: 60px;
+      }
+
+
+#left-side .left-nav {
+    display: flex;
+    padding: 0px;
+    margin: auto;
+
+}
+
+.left-nav li {
+    height: 32px;
+    margin: 60px 58px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s ease;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .left-nav li a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    -webkit-transition: font-size 3s ease;
+}
+  
+  /* left button underline */
+  .left-nav li:hover {
+    border-bottom: 2px solid rgb(145, 145, 145);
+    font-weight: bold;
+  }
+  
+  .left-nav li a:hover {
+    color: whitesmoke;
+    transition-duration: 2s;
+    font-size: 60px;
+  }
+  
