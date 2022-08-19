@@ -55,11 +55,20 @@ body {
 #title aside {
   position: absolute;
   top: 50%;
-  left: 75%;
+  left: 70%;
+  width: 100%;
 }
 
 #title img {
   height: 300px;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  border-width: 5px;
+}
+
+#title img:hover {
+  box-shadow: 5px 5px rgb(138, 138, 138);
+  height: 325px;
 }
 
 nav #a {
@@ -181,7 +190,6 @@ ul {
   flex-direction: row-reverse;
   align-items: center;
   height: 0px;
-
 }
 
 #bio h2 {
@@ -193,12 +201,8 @@ ul {
   text-orientation: upright;
 }
 
-#bio ul {
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  position: absolute;
-  padding-left: 150px;
+#bio p {
+  margin: 50px;
 }
 
 #projects {
