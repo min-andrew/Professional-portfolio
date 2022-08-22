@@ -17,6 +17,7 @@ body {
   margin-right: 0;
 }
 
+/* Hides display for smaller screen width header */
 #media {
   display: none;
 }
@@ -41,6 +42,7 @@ body {
   overflow: hidden;
 }
 
+/* My name in the background */
 #title h1 {
   font-size: 250px;
   color: var(--blue);
@@ -48,12 +50,14 @@ body {
   line-height: 290px;
 }
 
+
 #title aside {
   position: absolute;
   top: 50%;
   left: 70%;
 }
 
+/* My picture in the background of the nav */
 #title img {
   height: 300px;
   border: 2px solid var(--white);
@@ -66,14 +70,17 @@ body {
   height: 325px;
 }
 
+/* For the letter a in my name */
 nav #a {
   font-size: 625px;
 }
 
+/* For the letter m in my name */
 nav #m {
   font-size: 550px;
 }
 
+/* for all the lists in my html  */
 ul {
   list-style-type: none;
 }
@@ -154,6 +161,7 @@ ul {
   text-shadow: 2px 2px var(--dark_gray);
 }
 
+/* resume download link in the nav  */
 .resume {
   position: absolute;
   flex-direction: column;
@@ -162,6 +170,7 @@ ul {
   text-align: center;
 }
 
+/* Main body css */
 #scroll-wrapper section {
   position: relative;
   height: 100%;
@@ -169,6 +178,7 @@ ul {
   margin: 0px;
 }
 
+/* start of bio section css */
 #bio {
   background-color: var(--light-gray);
   display: flex;
@@ -194,6 +204,7 @@ ul {
   display: none;
 }
 
+/* start of projects section of css */
 #projects {
   background-color: var(--blue);
   display: flex;
@@ -212,6 +223,7 @@ ul {
   text-orientation: upright;
 }
 
+/* first project css */
 #project1 {
   display: flex;
   flex-direction: column;
@@ -227,7 +239,7 @@ ul {
   align-items: center;
 }
 
-
+/* first project picture  */
 #projects article img {
   padding: 30px;
   height: 300px;
@@ -238,7 +250,7 @@ ul {
   font-size: 50px;
 }
 
-# #projects ul {
+#projects ul {
   display: flex;
   flex-wrap: wrap;
   padding: 47px 150px 50px 20px;
@@ -261,6 +273,7 @@ ul {
   border-radius: 15%;
 }
 
+/* Start of contact section of css  */
 #contact {
   background-color: var(--light-gray);
   display: flex;
@@ -306,10 +319,12 @@ ul {
 
 @media only screen and (max-width: 992px) {
 
+  /* hides the big screen header */
   header {
     display: none;
   }
 
+  /* start of nav bar css  */
   #media {
     display: flex;
     justify-content: center;
@@ -355,6 +370,7 @@ ul {
     margin-top: 145px;
   }
 
+  /* added my picture to the bio portion */
   #bio img {
     display: flex;
     height: 350px;
@@ -379,6 +395,7 @@ ul {
     height: 100px;
   }
 
+  /* changed the contact viewing to columns  */
   #contact {
     background-color: var(--light-gray);
     display: flex;
