@@ -16,7 +16,8 @@ Windows 10 or the latest Mac OS.
 
 Link: [https://github.com/min-andrew/Professional-portfolio]
 
-![Uploading Screen Shot 2022-08-21 at 10.34.12 PM.png…]()
+<img width="350" alt="Screen Shot 2022-08-21 at 10 34 12 PM" src="https://user-images.githubusercontent.com/58195643/185846815-cb7b38af-0fc6-4600-85fc-a2895ba1d5d8.png">
+
 
 ## Help
 
