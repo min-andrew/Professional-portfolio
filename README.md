@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Professional Portfolio
 
-You can use the [editor on GitHub](https://github.com/min-andrew/Professional-portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Created my very own portfolio to showcase all of my different projects and ways to contact me.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description
 
-### Markdown
+I created every part of this portfolio from scratch by taking advantage of advanced CSS. Some of the advanced CSS includes flexbox, media queries, variables, and various other CSS properties that allowed beautiful styling of the page.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting Started
 
-```markdown
-Syntax highlighted code block
+### Dependencies
 
-# Header 1
-## Header 2
-### Header 3
+Windows 10 or the latest Mac OS.
 
-- Bulleted
-- List
+### Webpage
 
-1. Numbered
-2. List
+Link: [https://github.com/min-andrew/Professional-portfolio]
 
-**Bold** and _Italic_ and `Code` text
+![Uploading Screen Shot 2022-08-21 at 10.34.12 PM.png…]()
 
-[Link](url) and ![Image](src)
-```
+## Help
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Note: this layout will changed based on the screen width. 
 
-### Jekyll Themes
+## Authors
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/min-andrew/Professional-portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Andrew Min
 
-### Support or Contact
+## Version History
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* 1
+    * Starter code  
+    * Various optimizations and accessibility standard additions
+    * See [commit change]() or See [release history]()
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Thank you to me for learning how to code this portfolio.
